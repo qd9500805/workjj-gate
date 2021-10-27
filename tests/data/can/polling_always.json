@@ -1,0 +1,41 @@
+{
+  "interface": "virtual",
+  "channel": "virtual_channel",
+  "devices": [
+    {
+      "name": "TestDevice",
+      "attributes": [
+        {
+          "key": "testVar",
+          "nodeId": 41,
+          "value": "4:1:int",
+          "polling": {
+            "dataInHex": "CC",
+            "period": 2
+          }
+        }
+      ]
+    }
+  ]
+}   "key": "testVar2",
+          "nodeId": 2,
+          "value": "4:1:int",
+          "polling": {
+            "dataInHex": "02",
+            "period": 2.5
+          }
+        },
+        {
+          "key": "testVar3",
+          "nodeId": 3,
+          "value": "4:1:int",
+          "polling": {
+            "type": "always",
+            "dataInHex": "03",
+            "period": 3
+          }
+        }
+      ]
+    }
+  ]
+}

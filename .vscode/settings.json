@@ -1,0 +1,8 @@
+{
+"python.analysis.extraPaths": [
+     "c:\\users\\administrator\\appdata\\local\\programs\\python\\python310\\lib\\site-packages",　　　　　　　　// 自定义模块的相对路径，可多个，可绝对路径　　
+     "./modules"
+]
+}
+//"python.defaultInterpreterPath": "C:\\Program Files (x86)\\Snapde\\python.exe",
+ 
